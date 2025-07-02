@@ -183,7 +183,7 @@ def play_dice(message):
 # === Hisob toldirish ===
 @bot.message_handler(func=lambda m: m.text == "💳 Hisob toldirish")
 def deposit(message):
-    bot.send_message(message.chat.id, "💳 Hisob toldirish uchun murojaat: @YourAdminUsername")
+    bot.send_message(message.chat.id, "💳 Hisob toldirish uchun murojaat: @for_X_bott")
 
 # === Pul chiqarish ===
 @bot.message_handler(func=lambda m: m.text == "💸 Pul chiqarish")
